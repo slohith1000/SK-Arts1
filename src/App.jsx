@@ -10,6 +10,7 @@ import Exhibitions from "./pages/Exhibitions";
 import AvailableArt from "./pages/AvailableArt";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import "./styles.css";
 
 
 import './App.css';
@@ -21,7 +22,7 @@ function App() {
     <div className="App">
         <h1>Lohith S</h1>
     </div>
-    
+
     <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/paintings" element={<Paintings />} />
