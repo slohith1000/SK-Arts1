@@ -20,7 +20,7 @@ function App() {
     <BrowserRouter>
     <Navbar/>
     <div className="App">
-        <h1>Lohith S</h1>
+        <h1>Lohith</h1>
     </div>
 
     <Routes>
